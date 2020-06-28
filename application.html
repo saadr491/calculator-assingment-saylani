@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "main">
+        <div>
+            <input id="result" class = "result" type="text">
+        </div>
+        <div>
+            <button class="clearbtn" onclick="clearResult()">C</button>
+        </div>
+        <div>
+         <button class="btn" onclick="getNumber('7')">7</button>
+            <button class="btn" onclick="getNumber('8')">8</button>
+            <button class="btn" onclick="getNumber('9')">9</button>
+            <button class="btn" onclick="getNumber('*')" style="background-color:blue;color:skyblue;font-size: 30px;">*</button> 
+             
+        </div>
+        <div>
+            <button class="btn" onclick="getNumber('4')">4</button>
+            <button class="btn" onclick="getNumber('5')">5</button>
+            <button class="btn" onclick="getNumber('6')">6</button>
+            <button class="btn" onclick="getNumber('-')" style="background-color:blue;color:skyblue;font-size: 30px;">-</button>
+        </div>
+        <div>
+            <button class="btn" onclick="getNumber('1')">1</button>
+            <button class="btn" onclick="getNumber('2')">2</button>
+            <button class="btn" onclick="getNumber('3')">3</button>
+            <button class="btn" onclick="getNumber('+')" style="background-color:blue;color:skyblue;font-size: 30px;">+</button>
+        </div>
+        <div>
+            <button class="halfbtn" onclick="getNumber('0')">0</button>
+            <button class="halfbtn" onclick="getResult()" style="background-color:blue;color:skyblue;font-size: 30px;">=</button>
+            
+        </div>
+    </div>
+</body>
+<script src="calculator.js"></script>
+</html>
